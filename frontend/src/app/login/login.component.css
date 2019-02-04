@@ -6,6 +6,7 @@
     background-size: cover;
 }
 .login-box{
+    color: #000000;
     position: relative;
     width: 45%;
     height: 650px;
@@ -13,6 +14,7 @@
     margin: auto;
     top: 20%;
     border-radius: 9px;
+    /* background-image: linear-gradient(141deg, #35755a 0%, #4a969e 51%, #1b5e77 75%); */
 }
 .circle{
     position: relative;
@@ -45,16 +47,17 @@ input[type="text"]{
     border-bottom: 2px solid grey;
     padding: 5px 0px 0px 0px;
     margin: 15px 0px 0px 0px;
+    background: transparent;
     
 }
 input[type="text"].bg-user{
-    background-image: url('user.jpg');
-    background-size: 20px 20px;
+    background-image: url('user.png');
+    background-size: 25px 25px;
     background-repeat: no-repeat;
 }
 input[type="text"].bg-lock{
     background-image: url('lock.jpg');
-    background-size: 20px 20px;
+    background-size: 25px 25px;
     background-repeat: no-repeat;
 }
 input[type="checkbox"]{
@@ -73,8 +76,8 @@ input[type="checkbox"]{
     width: 15%;
 }
 .btnn button{
-width: 100px;
-height: 50px;
-border-radius: 25px;
-border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
 }
